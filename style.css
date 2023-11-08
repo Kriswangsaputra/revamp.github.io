@@ -1,0 +1,216 @@
+body{
+    font-family: samsung sharp sans;
+}
+.carousel{
+    background-size: cover;
+}
+
+.reveal{
+    margin-top: 150px;
+    position: relative;
+    transform: translateY(170px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.navbar ul li{
+    padding-bottom: 5px;
+    padding-top: 3px;
+    position: relative;
+}
+
+.navbar ul li:hover{
+    border-bottom: 1px solid black;
+    transition: 1s all ease;
+}
+
+.navbar-scroll{
+    background-color: darkblue;
+    color: white;
+}
+
+
+.card{
+    width: 18rem;
+    padding: 70px;
+}
+
+@media (max-width:800px){
+    .card{
+        width: 10rem;
+        padding: 10px;
+    }
+}
+
+.card:hover{
+    background-color: azure;
+    transform: translateY(-15px);
+    transition: 0.3s all;
+    width: 20rem;
+    padding: 65px;
+}
+
+@media(max-width:800px){
+    .card:hover{
+        transform: translateY(-10px);
+        width: 11rem;
+        padding: 5px;
+    }
+}
+
+.partner-tittle{
+    border-bottom: solid 2px black;
+}
+
+.partner{
+    position: relative;
+    background-position: center;
+    background-size:unset;
+    border: none;
+}
+
+.logo-footer{
+    max-width: 30%;
+    height: auto;
+}
+.text-footer-company{
+    font-size: 12px;
+    max-width: 100%;
+}
+@media (max-width: 600px){
+    .text-footer-company{
+        font-size: 8px;
+    }
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+    max-width: 100%;
+}
+
+@media (max-width : 800px){
+    .footer a {
+        font-size: 8px;
+    }
+}
+
+.footer a:hover{
+    color: white; 
+    background-color: black;
+    transition: 0.6s all;
+}
+
+.footer .informasi {
+    width: 230px;
+}
+
+@media (max-width : 800px){
+    .footer .informasi {
+        width: 70px;
+    }
+}
+
+.footer .col-layanan {
+    width: 200px;
+}
+
+@media (max-width : 800px){
+    .footer .col-layanan {
+        width: 70px;
+    }
+}
+
+.footer .pembayaran{
+    width: 500px;
+}
+
+.footer .pembayaran .img-fluid{
+    max-width: 70%;
+}
+
+@media (max-width:800px){
+    .footer .pembayaran{
+        max-width: 200px;
+    }
+}
+
+@media (max-width:800px){
+    .footer .informasi .h5{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:800px){
+    .footer .col-layanan .h5{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:800px){
+    .footer .col-pembayaran .h5{
+        font-size: 10px;
+    }
+}
+
+.footer .sosial-media:hover{
+    text-decoration: none;
+    background-color: white;
+}
+
+.footer .row-sosial-media{
+    width: 500px;
+}
+
+.footer .row-sosial-media .img-fluid{
+    max-width: 50%;
+    margin-bottom: 30px;
+    margin-left: -13px;
+}
+
+@media(max-width:800px){
+    .footer .row-sosial-media{
+        width: 200px;
+    }
+
+}
+
+@media(max-width:800px){
+    .footer .row-sosial-media .img-fluid{
+        max-width: 90%;
+    }
+}
+@media(max-width:800px){
+    .footer .sosial-media-instagram .img-fluid{
+        margin-left: 15px;
+    }
+}
+
+@media(max-width:800px){
+    .footer .sosial-media-youtube .img-fluid{
+        margin-left: 43px;
+    }
+}
+@media(max-width:800px){
+    .footer .sosial-media-whatsapp .img-fluid{
+        margin-left: 71px;
+    }
+}
+@media(max-width:800px){
+    .footer .sosial-media-tiktok .img-fluid{
+        margin-left: 99px;
+    }
+}
+
+.copyright{
+    font-size: 11px;
+    color: grey;
+}
