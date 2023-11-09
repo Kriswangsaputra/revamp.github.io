@@ -12,9 +12,28 @@ Template: portofolio
 body{
     font-family: samsung sharp sans;
 }
+.top-bar{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.top-bar img{
+    width: 20px;
+}
+@media (max-width:800px){
+    .top-bar h6 {
+        visibility:hidden;
+    }
+}
 .carousel{
     background-size: cover;
-    margin-top: -91px;
+    margin-top: -80px;
+}
+@media (max-width : 800px){
+    .carousel .carousel-inner .carousel-item img{
+        border-bottom: 1px solid grey;
+    }
 }
 
 .reveal{
@@ -42,7 +61,7 @@ body{
 }
 
 .navbar-scroll{
-    background-color: darkblue;
+    background-color:grey;
     color: white;
 }
 
