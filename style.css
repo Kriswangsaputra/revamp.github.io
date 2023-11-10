@@ -13,22 +13,26 @@ body{
     font-family: samsung sharp sans;
 }
 .top-bar{
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background-color: #17566e;
+    color: white;
+    font-size: 11px;
+    justify-content: center;
 }
 .top-bar img{
     width: 20px;
 }
 @media (max-width:800px){
-    .top-bar h6 {
-        visibility:hidden;
+    .top-bar{
+        font-size: 9px;
+    }
+    .top-bar img{
+        width: 15px;
     }
 }
+
 .carousel{
     background-size: cover;
-    margin-top: -80px;
+    margin-top: -120px;
 }
 @media (max-width : 800px){
     .carousel .carousel-inner .carousel-item img{
@@ -49,6 +53,10 @@ body{
     opacity: 1;
 }
 
+.navbar{
+    border-bottom: 4px solid #17566e;
+}
+
 .navbar ul li{
     padding-bottom: 5px;
     padding-top: 3px;
@@ -61,8 +69,8 @@ body{
 }
 
 .navbar-scroll{
-    background-color:grey;
-    color: white;
+    background-color:white;
+    color: black;
 }
 
 
