@@ -43,7 +43,7 @@ body{
 }
 
 .reveal{
-    margin-top: 150px;
+    
     position: relative;
     transform: translateY(170px);
     opacity: 0;
@@ -102,6 +102,12 @@ body{
         width: 11rem;
         padding: 5px;
     }
+}
+
+/* Company */
+.company{
+    border: 2px solid black;
+    border-radius: 40px;
 }
 
 /* divisi */
